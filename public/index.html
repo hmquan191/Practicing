@@ -8,9 +8,35 @@
 </head>
 <body>
 
-    <div class = "nav-bar">
-        <h5>navigation bar</h5>
+    <div class = "sidebar">
+       
+        <div class ="sidebar-link">
+            <img src="/Practicing/icons/home.svg" alt="home icons">
+            <div>Home</div>
+        </div>
+        <div class ="sidebar-link">
+            <img src="/Practicing/icons/explore.svg" alt="explore icons">
+            <div>Explore</div>
+        </div>
+        <div class ="sidebar-link">
+            <img src="/Practicing/icons/library.svg" alt="library icons">
+            <div>Library</div>
+        </div>
+        <div class ="sidebar-link">
+            <img src="/Practicing/icons/originals.svg" alt="originals icons">
+            <div>Originals</div>
+        </div>
     </div>
+
+    <div class = "music-player">
+        <div>
+            <p class = "track-title"></p>
+            <p class = "track-artist"></p>
+        </div>
+        <audio id = "audio-player" controls>
+        </audio>
+    </div>
+
 
     <!-- Tweet Section -->
     <div class="tweet-container">
@@ -149,6 +175,16 @@
             <button class = "friends-button">Add friend</button>
          </div>
     </div>
+
+    <div class="content">
+        <p>This is some content.</p>
+        <p>This is more content.</p>
+        <p>Keep adding more content to make the page scrollable.</p>
+        <!-- Add more elements -->
+      </div>
+      
+
+    <script src = "script.js"></script>
 
 </body>
 </html>
